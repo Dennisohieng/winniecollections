@@ -1,0 +1,72 @@
+<div class="footer-right">
+    <div class="support-container">
+      <h2><strong>Find<br>Support,<br>Guidance,<br>and Balance</strong></h2>
+      <button class="cta-button">Find Support Now</button>
+    </div>
+  
+    <div class="support-images">
+      <img src="assets/selecion process.jpeg" alt="Support 1" class="fashion fashion-1">
+      <img src="assets/stylist man.jpeg" alt="Support 2" class="fashion fashion-2">
+      <img src="assets/stylist women.jpeg" alt="Support 3" class="fashion fashion-3">
+      <img src="assets/stylist man 2.png" alt="Support 4" class="fashion fashion-4">
+    </div>
+  </div>
+  <style>
+    .footer-right {
+  position: relative;
+  background-color: #003b3b;
+  border-radius: 40px;
+  padding: 40px;
+  color: white;
+  overflow: hidden;
+  height: 300px; /* or as needed */
+}
+
+.support-container {
+  position: relative;
+  z-index: 2;
+  max-width: 60%;
+}
+
+.support-images {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none; /* Allows clicks to go through */
+}
+
+.fashion {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Positioning each image individually */
+.fashion-1 {
+  top: 20px;
+  right: 40px;
+}
+
+.fashion-2 {
+  top: 60px;
+  right: 100px;
+}
+
+.fashion-3 {
+  top: 120px;
+  right: 30px;
+}
+
+.fashion-4 {
+  top: 40px;
+  right: 160px;
+}
+
+  </style>
+  
